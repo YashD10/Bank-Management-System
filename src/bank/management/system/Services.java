@@ -158,7 +158,7 @@ public class Services extends JFrame implements ActionListener {
 
             try{
                 Connection connection = new Connection();
-                String query = "update signupthree set facility = '"+facility+"' where pin = '"+pin+"' and card_number = '"+cardno+"'";
+                String query = "update signupthree set fagit cility = '"+facility+"' where pin = '"+pin+"' and card_number = '"+cardno+"'";
                 connection.statement.executeUpdate(query);
                 JOptionPane.showMessageDialog(null,"Services are updated");
                 setVisible(false);
