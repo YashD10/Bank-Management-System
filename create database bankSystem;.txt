@@ -1,0 +1,62 @@
+create database bankSystem;
+
+
+use banksystem;
+
+CREATE TABLE Signup (
+    form_no VARCHAR(255) ,
+    name VARCHAR(255) ,
+    father_name VARCHAR(255),
+    DOB VARCHAR(255),
+    gender VARCHAR(10),
+    email VARCHAR(255),
+    marital_status VARCHAR(15),
+    address VARCHAR(500),
+    city VARCHAR(255),
+    pincode VARCHAR(10),
+    state VARCHAR(255)
+);
+
+
+CREATE TABLE Signuptwo (
+    form_no VARCHAR(255) ,
+    religion VARCHAR(255) ,
+    category VARCHAR(255),
+    income VARCHAR(255),
+    education VARCHAR(255),
+    occupation VARCHAR(255),
+    pan VARCHAR(255),
+    aadhar VARCHAR(500),
+    senior_citizen VARCHAR(255),
+    existing_account VARCHAR(10)
+);
+
+
+CREATE TABLE Signupthree (
+    form_no VARCHAR(255) ,
+    account_Type VARCHAR(255) ,
+    card_number VARCHAR(255),
+    pin VARCHAR(255),
+    facility VARCHAR(255)
+);
+
+
+
+CREATE TABLE Login (
+    form_no VARCHAR(255) ,
+    card_number VARCHAR(255) ,
+    pin VARCHAR(255)
+);
+
+
+
+CREATE TABLE Bank (
+    card_number VARCHAR(255),
+    pin VARCHAR(255) ,
+    date VARCHAR(255) ,
+    type varchar(255),
+    amount VARCHAR(255)
+);
+
+
+
